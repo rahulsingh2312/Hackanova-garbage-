@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO RECYCLE?</title>
+    <style>
+.title{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    background-color: hsl(60, 56%, 91%);
+}
+#slogan{
+    font-size: 20px;
+}
+.nav{
+    background-color: rgb(236, 235, 201);
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 235, 201);
+}
+li {
+    float: left;
+}
+ a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+ 
+    text-decoration: none;
+}
+li:hover,a:hover{
+    background-color: black;
+    color: white;
+}
+#profile{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+ 
+}
+.box1{
+    text-align: left;
+}
+.box{
+    width: 40%;
+    height: 300px;
+    font-size: larger;
+}
+.or{
+    font-size: 50px;
+    padding: 50px;
+}
+#infoaboutgarbage{
+    font-size: 14px;
+}
+.desc{
+    width: 38%;
+    height: 50px;
+    font-size: 14px;
+    background-color: blue;
+    color: aliceblue;
+}
+.desc:hover{
+    color: black;
+    background-color: aliceblue;
+
+}
+.cards {
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 20px;
+    padding: 5px;
+}
+.beige{
+    background-color: beige;
+}
+.card {
+    display: grid;
+    
+    grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.align{
+    text-align: center;
+    align-items: center;
+}
+@media screen {
+    
+}
+    </style>
+</head>
+<body>
+ <div class="title"> EVERY RECYCLE AND DISPOSAL AT ONE STOP
+    <div id="slogan">Changing world one garbage-bin🗑️ a time</div>
+ </div>
+ <nav class="navabr">
+<ul >
+    <li><a href="#home">Home</a>
+    </li>
+<li> <a href="#shopdustbins">SHop dustbins🗑️ </a></li>
+<li> <a href="#printourqrcodes">🖨️qr Code </a></li>
+<li> <a href="#connect"> contact us 📞 </a></li>
+
+    <li span id="profile"> <a span id="profile" href="#profile"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAACSCAMAAACZpWO8AAAAMFBMVEXk5ueutLeqsLTT1tjn6era3d7g4uOxt7q7wMO0urzP09WnrrG/xMbX2tvGyszJzc85ExGLAAADTUlEQVR4nO2b25KkIAxABQICov7/347a9m5fbAnRxK5qzsvM7tOpcItJpmkqlUqlUqlUKpVKpVKpVA4AcLXBf2YXZ0yM0Vg3/fNqn8mgH33b6YVOhzTai+Plhla90kZ3mRS4pPWbkVJajdesHzTDls9qFa8w6sNno8nJywdq3BNaMLJOMOSEJqKok8/GaKIbBZ0SxkgyTpBwQlOchPYTxA6rpForomTRQrOThBGEEiU98C8d5C+kZ3p2paJlmwncYcKftju6Z3Zy+NN2x/MaoR6StzCxKrn3jC2v5FlXzhQet5uTYzQC1HP7BudTByQjlfiMmp6mFPhWDkaSkdKMj2/xPbkqGT4lT1RifHsJt9JCYlOiXJQLfE+vIxqp9qeUaNfSxE8pUY0YF+77TlxT9HHyAN+9RL69+YoD5d8CqxJfqguRpqQY00riLRD4jMhZJWeiu1Mx3YH145KU6WpGoYZ0DTAXT0jZN3PZi7DBOT+ZFqXS8hLr58lK4TunOW+AG2DKyjktZ0Hg7lR06DqR0rcrWTreQs4dsPil43zdnpzwCYHARlqdRlyctJXr6yDjxF3LfXHKxkkrwRgtTna3j7p0UqWB/aacHsWNZqn+UzFV63TRqAA0cfNbUweZLty2FJih7fRTgMIgvK3fpBpnR9/eotW2frRfMAgzxwqcnXDzb18gM/9w/3j4z2t0XB+H5H1Y121auBB8GkZjxSesJhlnhs85itaqTXFeSCmhxqSgsim4ViGNjj9a0NgYNoeWPnkxH0GA6PPheZXyA5cUgN0e6srT+Z7DCiyxBHcjnD59Mj2x5a3vJ3SIZ0YKHLEiyBUpaJCpdpYunfQi99Rq9xYnZHaZ5LEY7Y8GakqxzxRapI59koM5W0gdrKUQq6VZJ3qTntoMyNNSryjaNAcO0iYvqyMVQ4kTZ4wUpTrHtLMfnQrDVDLOSaWsaAA9u1Bx41DAqHCWkDCER6Ggklk8zkkE3/CBM7ORfZAlFpa39gPYF1guSKpDhQlIs5NUUN2Dsnnuw2DCJHXcVjDJOPvj9gxmkl923TAbnDDQfYj8SwdRdt0QZ44v3/5EdjMJXwEK8dczRV3Sc8gNN1mlhck2pJ0R58KGS6VSqVQqv84fRGonepFSL7AAAAAASUVORK5CYII=" width="48px" > </a> </li>
+</span>
+</ul>
+</nav>
+<div class="box1" >
+    <form action="#actionpage">
+        <label for="description">   description ABOUT YOUR TRASH 🗑️ </label></div>
+        <br>
+       <textarea id="infoaboutgarbage" name="garbage" placeholder=" Enter the name or describle your trash to get to know the best possible way to recycle and to make sure u help this world to be a BETTER PLACE" rows="19%" cols="68%"></textarea>
+       <BR><button class="desc" type="button">CHECK HOW</button>
+    </form>
+   <span class="or">OR</span>
+  //imgsrch aayega
+  <div class="cards">
+    <article class="card">
+        <header>
+           <div><h2 class="beige" >Garbage management is as imp as a proper education</h2>
+        </header>    
+        <img src="https://images.unsplash.com/photo-1495556650867-99590cea3657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Hot air balloons">
+        <div  class="beige">
+            <p class="align"> The 7 R's Of Recycling
+              <br >   Recycle.
+              <br>    Refuse.
+              <br>     Reduce.
+              <br>    Reuse.
+              <br>    Repair.
+              <br>    Re-gift.
+              <br>    Recover. </p>
+        </div>
+            
+    </article>
+     <article class="card">
+        <header>
+            <h2>A short heading</h2>
+        </header>    
+        <img src="balloons2.jpg" alt="Hot air balloons">
+        <div class="content">
+            <p>Short content.</p>
+        </div>
+        <footer>I have a footer!</footer>
+    </article>
+            
+    <article class="card">
+        <header>
+            <h2></h2>
+        </header>
+        <img src="https://images.unsplash.com/photo-1571727153934-b9e0059b7ab2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Hot air balloons">
+        <div class="content">
+            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+                suggestion for reaching the North Pole by an aerostat.</p>
+        </div>
+        <footer>I have a footer!</footer>
+    </article>
+
+</body>
+</html>
