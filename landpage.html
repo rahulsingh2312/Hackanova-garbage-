@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOW TO RECYCLE?</title>
     <style>
+        .main{
+            color: aliceblue;
+            font-style: italic;
+        }
 .title{
-    width: 100%;
-    padding: 50px;
+    width: 90%;
+    padding: 5%;
     text-align: center;
     font-size: 50px;
-    background-color: hsl(60, 56%, 91%);
+    background-color: hsl(60, 3%, 15%);
 }
 #slogan{
     font-size: 20px;
 }
 .nav{
-    background-color: rgb(236, 235, 201);
+    background-color: rgb(65, 65, 61);
+    width: 100%;
 }
 ul {
     width: 100%;
@@ -25,22 +30,22 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(236, 235, 201);
+    background-color: rgb(40, 1, 1);
 }
 li {
     float: left;
 }
  a{
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
  
     text-decoration: none;
 }
 li:hover,a:hover{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
 }
 #profile{
     float: right;
@@ -73,17 +78,24 @@ li:hover,a:hover{
 .desc:hover{
     color: black;
     background-color: aliceblue;
+    cursor: pointer;
 
 }
+.navabar{
+    width:initial;
+}
 .cards {
-   
+   background: fixed;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     grid-gap: 20px;
     padding: 5px;
 }
 .beige{
-    background-color: beige;
+    background-color: rgb(59, 59, 59);
+}
+.violet{
+    background-color:rgb(57, 57, 40);
 }
 .card {
     display: grid;
@@ -100,12 +112,69 @@ li:hover,a:hover{
     text-align: center;
     align-items: center;
 }
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.shop button{
+    border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(162, 0, 0);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.shop button:hover {
+  opacity: 0.7;
+}
+.end{
+    background-color: antiquewhite;
+    color: black;
+    width: 94%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.end2{
+    background-color: antiquewhite;
+    color: black;
+    width: 94%;
+   margin-right:5px ;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#footmain{
+    font-size: 50px;
+    font-style: italic;
+}
+#footcontent{
+font-size: larger;
+    margin-left: 90px;
+}
+.end a{
+    color: black;
+}
+.end3{
+   
+    color: rgb(56, 53, 53);
+    margin-left: 50%;
+    background-color: antiquewhite;
+}
+.end3 a{
+text-decoration: underline ;
+margin: 0px;
+padding: 3px;
+}
 @media screen {
     
 }
     </style>
 </head>
-<body>
+<div class="main">
+<body style="background-color:rgb(8, 8, 6)">
  <div class="title"> EVERY RECYCLE AND DISPOSAL AT ONE STOP
     <div id="slogan">Changing world one garbage-bin🗑️ a time</div>
  </div>
@@ -130,6 +199,10 @@ li:hover,a:hover{
     </form>
    <span class="or">OR</span>
   //imgsrch aayega
+  <br>
+  <br>
+  <br>
+  
   <div class="cards">
     <article class="card">
         <header>
@@ -144,19 +217,22 @@ li:hover,a:hover{
               <br>    Reuse.
               <br>    Repair.
               <br>    Re-gift.
-              <br>    Recover. </p>
-        </div>
-            
-    </article>
+              <br>    Recover. </p></div>
+            </article>
+
+
      <article class="card">
         <header>
-            <h2>A short heading</h2>
+            <h2 style="text-align: center;">Buy dustbins🗑️!!</h2>
         </header>    
-        <img src="balloons2.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p>Short content.</p>
+        <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a1aaabce-93c9-4a6d-ae5f-bb482b409ad8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230101T101014Z&X-Amz-Expires=86400&X-Amz-Signature=1079262f409eb2dc63d463227b0c0629c6afd33240dd81eb1449a1e8a927f088&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject" alt="Hot air balloons">
+        <div class="shop">
+            <h1>Four dustbins🗑️ free home delivery pan india</h1>
+            <p style="text-align: center;" class="price">Rs399.99</p>
+            <p>This dustbins are made of hard plastic and have a warranty period of 2 years if they gets broken or damaged it  will be replaced (stand is included in the product)</p>
+            <p><button>Add to Cart</button></p>
         </div>
-        <footer>I have a footer!</footer>
+       
     </article>
             
     <article class="card">
@@ -164,12 +240,67 @@ li:hover,a:hover{
             <h2></h2>
         </header>
         <img src="https://images.unsplash.com/photo-1571727153934-b9e0059b7ab2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Hot air balloons">
-        <div class="content">
-            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                suggestion for reaching the North Pole by an aerostat.</p>
-        </div>
-        <footer>I have a footer!</footer>
-    </article>
+        <div class="violet" >
+            <p>Plastic pollution is a global problem. Approximately 7 billion of the 9.2 billion tonnes of plastic produced from 1950-2017 became plastic waste, ending up in landfills or dumped.
 
+                Plastic pollution can alter habitats and natural processes, reducing ecosystems’ ability to adapt to climate change, directly affecting millions of people’s livelihoods, food production capabilities and social well-being. 
+                Kills Ocean Life. By now you've probably heard about the mass amounts of plastic polluting oceans and other waterways. ...
+Kills Terrestrial Wildlife. Plastic also harms the environment by killing land animals. ...
+Takes Up Space. ...
+Produces Chemical Pollution. ...
+Creates Microplastics.
+                </p>
+        </div>
+        <footer class="violet">Every minute, the equivalent of one garbage truck of plastic is dumped into our ocean. </footer>
+    </article></div>
+    <BR>
+        <BR>
+            <BR>
+                <BR>
+                    <DIV class="FOOTDESIGN">
+<footer>
+    <ul class="end"> 
+        <li > <span id="footmain"> KACHRA RECYLE.COM </span><ul class="end2"><LI> reduce 📈 </LI>
+        <Li>recycle♻️</Li><li>reuse 🌍</li></ul> </li>
+          <li><span id="footcontent"><a href="#ELP">HELP</a></span>
+            <ul class="end3"> <lI><a href="#returnurprdt">Return ur dustbins</a> </lI>
+            </ul>
+            <ul class="end3"> <lI><a href="#accesswarnty">Access your warranty</a> </lI>
+            </ul>
+            <ul class="end3"> <lI><a href="#track">Track your order🚚</a> </lI>
+            </ul>
+            <ul class="end3"> <lI><a href="#bulk">bulk order📦</a> </lI>
+            </ul>
+            
+        </li>
+
+
+          <li><span id="footcontent"><a href="#CONTACT">ABOUT US</a></span>
+            <ul class="end3"> <lI><a href="#TEAMSEMICOLON">OUR GOALS 🌍</a> </lI>
+            </ul>
+            <ul class="end3"> <lI><a href="CONTIBUTE">CONTRIBUTE TO OUR CAUSE 💸</a> </lI>
+            </ul>
+            <ul class="end3"> <lI>📍 MUMBAI MAHARASTRA </lI>
+            </ul>
+        
+        
+        
+        </li>
+          <li><span id="footcontent"><a href="#SOCIALS">SOCIAL MEDIA</a></span>
+        <ul class="end3"> <lI><a href="#insta">Instagram🔥</a> </lI>
+        </ul>
+        <ul class="end3"> <lI><a href="#tweet">twitter</a> </lI>
+        </ul>
+        <ul class="end3"> <lI><a href="#linked">linkedin</a> </lI>
+        </ul>
+        <ul class="end3"> <lI><a href="#github">github</a> </lI>
+        </ul>
+        <ul class="end3"> <lI>&nbsp&nbsp&nbsp </lI>
+        </ul>
+    </li>
+    </ul>
+
+</footer>
+</DIV>
 </body>
 </html>
